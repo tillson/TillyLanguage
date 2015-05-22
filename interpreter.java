@@ -19,7 +19,7 @@ class Main {
                 if (line.contains("f")) {
                     for (int i = 0; i <= 100; i++) {
                         // CORE CODE HERE!
-                        if (i % 3 == 0 && i % 3 == 0) {
+                        if (i % 3 == 0 && i % 5 == 0) {
                             System.out.println("FizzBuzz");
                         } else if (i % 3 == 0) {
                             System.out.println("Fizz");
