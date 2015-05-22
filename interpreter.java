@@ -16,8 +16,7 @@ class Main {
             BufferedReader bufferedReader = new BufferedReader(fileReader);
             
             while((line = bufferedReader.readLine()) != null) {
-                System.out.println(line);
-                if (line.equals("f")) {
+                if (line.contains("f")) {
                     for (int i = 0; i <= 100; i++) {
                         // I can take up alll the space I need.
                         if (i % 3 == 0 && i % 3 == 0) {
