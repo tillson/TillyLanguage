@@ -1,7 +1,7 @@
 import java.io.*;
 
 class Main {
-    
+    // 2015 Tillson Galloway
     public static void main(String[] args) {
         if (args.length == 0) {
             System.out.println("specify a file");
@@ -18,7 +18,7 @@ class Main {
             while((line = bufferedReader.readLine()) != null) {
                 if (line.contains("f")) {
                     for (int i = 0; i <= 100; i++) {
-                        // I can take up alll the space I need.
+                        // CORE CODE HERE!
                         if (i % 3 == 0 && i % 3 == 0) {
                             System.out.println("FizzBuzz");
                         } else if (i % 3 == 0) {
